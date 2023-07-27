@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
 body{
     background-color: rgb(247, 239, 236);
-    border: solid; color: rgb(247, 239, 236);
-    width: 793px;
-    height: 870px;
+    border: solid; color: black;
+    max-width: 793px;
+    max-height: 870px;
     color: black;
 }
 p{
@@ -14,27 +15,29 @@ h1, h2, h3{
     font-weight: lighter;
 }
 h1{
-    font-size: 48px;
+    font-size: 56px;
     font-weight: lighter;
 }
  header{
     display: block;
     width: 65%; 
     float: right;
+    line-height: 1;
  } 
 img{
     padding: 13px;
 }
-.aside{
+aside{
     background-color: pink;
     clear: left; width: 30%;
     display: block;
-    margin-left: 20px;
+    margin-left: 10px;
     height: 850px;  
     text-align: center;
     border-top-left-radius: 250px;
     border-top-right-radius: 250px;
     margin-top: 20px;
+    position: relative;
 
 }
 #Komi{
@@ -45,4 +48,9 @@ img{
 #telephone, #location, #email, #internet{
     width: 50px;
     height: 50px;
+}
+content{
+    float: right;width: 60%;
+    margin-right: 37px;
+    margin-top: -620px;
 }
